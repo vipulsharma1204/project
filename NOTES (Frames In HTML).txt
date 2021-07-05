@@ -1,0 +1,88 @@
+ATTRIBUTES OF FRAMESET TAG
+
+margin height is used to provide height of spaces between top and bottom frames
+
+
+cols: The cols attribute is used to create vertical frames in web browser.
+      This attribute is basically used to define the no of columns and its size inside the frameset tag.
+      <!-- <frameset cols = "300, 400, 300"> -->
+
+        <!-- <frameset cols = "30%, 40%, 30%"> -->
+
+rows: The rows attribute is used to create horizontal frames in web browser. This attribute is used to define no of rows and its size inside the frameset tag.
+The size of rows or height of each row use the following ways:
+
+<!-- <frameset rows = "300, 400, 300"> -->
+
+<!-- <frameset rows = "30%, 40%, 30%"> -->
+wild card
+<!-- <frameset rows = "30%, *, 30%"> -->
+
+border: This attribute of frameset tag defines the width of border of each frames in pixels. Zero value is used for no border.
+    
+<!-- <frameset border="4" frameset> -->
+
+frameborder: This attribute of frameset tag is used to specify whether the three-dimensional border should be displayed between
+the frames or not for this use two values 0 and 1, where 0 defines for no border and value 1 signifies for yes there will be border.
+
+framespacing: This attribute of frameset tag is used to specify the amount of spacing between the frames in a frameset. 
+This can take any integer value as an parameter which basically denotes the value in pixel.
+
+    
+<!-- <framespacing="20"> -->
+
+
+ATTRIBUTES OF FRAME TAG
+
+
+
+name: This attribute is used to give names to the frame. It differentiate one frame from another. 
+        It is also used to indicate which frame a document should loaded into.
+
+<!-- <frame  marginwidth="100" ,name= "top"src="demo.html"/> -->
+
+src: This attribute in frame tag is basically used to define the source file that should 
+     be loaded into the frame.The value of src can be any url.
+
+
+<!-- <frame name = "left" src = "/html/left.htm" /> -->
+
+marginwidth: This attribute in frame tag is used to specify width of the spaces in pixels 
+             between the border and contents of left and right frame.
+
+
+<!-- <frame marginwidth="20"> -->
+
+marginheight: This attribute in frame tag is used to specify height of the spaces in pixels 
+              between the border and contents of top and bottom frame.
+    
+    <!-- <frame marginheight="20"> -->
+
+
+scrollbar: To control the appearance of scroll bar in frame use scrollbar attribute in frame tag. 
+            This is basically used to control the appearance of scrollbar. The value of this attribute 
+            can be yes, no, auto. Where the value no denotes there will be no appearance of scroll bar.
+
+
+<!-- <frame scrollbar="no"> -->
+
+
+
+    Advantages:
+
+    It allows the user to view multiple documents within a single Web page.
+    It load pages from different servers in a single frameset.
+    The older browsers that do not support frames can be addressed using the tag.
+
+
+    Disadvantages: 
+    
+    
+    Due to some of its disadvantage it is rarely used in web browser.
+    Frames can make the production of website co   licated.
+    A user is unable to bookmark any of the Web pages viewed within a frame.
+    The browser’s back button might not work as the user hopes.
+    The use of too many frames can put a high workload on the server.
+    Many old web browser doesn’t support frames.
+    Note: This tag is not supported in HTML5.
+    

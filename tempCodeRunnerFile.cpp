@@ -1,0 +1,1 @@
+cout<<wctype(inte);

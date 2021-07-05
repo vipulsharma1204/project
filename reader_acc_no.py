@@ -1,0 +1,1 @@
+print([line.split(" ")[0] for line in open("bank.txt").read().split("\n")])
